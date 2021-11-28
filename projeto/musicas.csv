@@ -1,0 +1,350 @@
+album,track_number,name,popularity,duration_ms,danceability,valence,release_date
+BE,1,Life Goes On,82,207481,0.566,0.45,2020-11-20
+BE,2,Fly To My Room,74,222242,0.764,0.588,2020-11-20
+BE,3,Blue & Grey,76,254950,0.547,0.364,2020-11-20
+BE,4,Skit,57,179547,0.703,0.544,2020-11-20
+BE,5,Telepathy,75,202313,0.787,0.57,2020-11-20
+BE,6,Dis-ease,73,239722,0.731,0.484,2020-11-20
+BE,7,Stay,74,204800,0.582,0.341,2020-11-20
+BE,8,Dynamite,87,199053,0.746,0.737,2020-11-20
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,1,INTRO : Calling,54,84613,0.486,0.0806,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,2,Stay Gold,72,243266,0.723,0.582,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,3,Boy With Luv - Japanese ver.,56,230013,0.673,0.78,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,4,Make It Right - Japanese ver.,52,225520,0.571,0.238,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,5,Dionysus - Japanese ver.,50,248906,0.455,0.588,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,6,IDOL - Japanese ver.,52,223213,0.705,0.422,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,7,Airplane pt.2 - Japanese ver.,53,220053,0.752,0.901,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,8,FAKE LOVE - Japanese ver.,53,243533,0.546,0.433,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,9,Black Swan - Japanese ver.,51,198760,0.714,0.536,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,10,ON - Japanese ver.,51,247986,0.598,0.428,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,11,Lights,69,292853,0.608,0.431,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,12,Your eyes tell,73,245146,0.449,0.258,2020-07-14
+MAP OF THE SOUL : 7 ~ THE JOURNEY ~,13,OUTRO : The Journey,52,76506,0.523,0.165,2020-07-14
+MAP OF THE SOUL : 7,1,Intro : Persona,36,171023,0.469,0.652,2020-02-28
+MAP OF THE SOUL : 7,2,Boy With Luv (Feat. Halsey),45,229773,0.645,0.798,2020-02-28
+MAP OF THE SOUL : 7,3,Make It Right,42,226321,0.638,0.261,2020-02-28
+MAP OF THE SOUL : 7,4,Jamais Vu,40,227275,0.608,0.241,2020-02-28
+MAP OF THE SOUL : 7,5,Dionysus,42,249215,0.502,0.588,2020-02-28
+MAP OF THE SOUL : 7,6,Interlude : Shadow,51,259821,0.385,0.141,2020-02-28
+MAP OF THE SOUL : 7,7,Black Swan,47,198260,0.719,0.49,2020-02-28
+MAP OF THE SOUL : 7,8,Filter,61,180220,0.781,0.86,2020-02-28
+MAP OF THE SOUL : 7,9,My Time,55,234457,0.674,0.664,2020-02-28
+MAP OF THE SOUL : 7,10,Louder than bombs,52,217404,0.643,0.485,2020-02-28
+MAP OF THE SOUL : 7,11,ON,61,246380,0.583,0.438,2020-02-28
+MAP OF THE SOUL : 7,12,UGH!,52,225012,0.72,0.333,2020-02-28
+MAP OF THE SOUL : 7,13,00:00 (Zero O’Clock),56,250295,0.566,0.196,2020-02-28
+MAP OF THE SOUL : 7,14,Inner Child,54,233265,0.589,0.332,2020-02-28
+MAP OF THE SOUL : 7,15,Friends,59,199338,0.55,0.648,2020-02-28
+MAP OF THE SOUL : 7,16,Moon,56,208589,0.703,0.64,2020-02-28
+MAP OF THE SOUL : 7,17,Respect,53,237540,0.661,0.524,2020-02-28
+MAP OF THE SOUL : 7,18,We are Bulletproof : the Eternal,55,261542,0.526,0.19,2020-02-28
+MAP OF THE SOUL : 7,19,Outro : Ego,52,196198,0.808,0.473,2020-02-28
+MAP OF THE SOUL : 7,20,ON (Feat. Sia),51,246816,0.591,0.386,2020-02-28
+MAP OF THE SOUL : PERSONA,1,Intro : Persona,30,171023,0.486,0.659,2019-04-12
+MAP OF THE SOUL : PERSONA,2,작은 것들을 위한 시 (Boy With Luv) [feat. Halsey],43,229773,0.645,0.803,2019-04-12
+MAP OF THE SOUL : PERSONA,3,소우주 (Mikrokosmos),37,224225,0.579,0.475,2019-04-12
+MAP OF THE SOUL : PERSONA,4,Make It Right,31,226321,0.639,0.259,2019-04-12
+MAP OF THE SOUL : PERSONA,5,HOME,32,234177,0.633,0.534,2019-04-12
+MAP OF THE SOUL : PERSONA,6,Jamais Vu,31,227275,0.608,0.241,2019-04-12
+MAP OF THE SOUL : PERSONA,7,Dionysus,31,249215,0.502,0.588,2019-04-12
+Love Yourself 轉 'Tear',1,Intro: Singularity,65,196998,0.775,0.204,2018-05-18
+Love Yourself 轉 'Tear',2,FAKE LOVE,73,242333,0.557,0.344,2018-05-18
+Love Yourself 轉 'Tear',3,The Truth Untold,71,242292,0.57,0.169,2018-05-18
+Love Yourself 轉 'Tear',4,134340,69,230063,0.664,0.65,2018-05-18
+Love Yourself 轉 'Tear',5,Paradise,70,211223,0.519,0.929,2018-05-18
+Love Yourself 轉 'Tear',6,Love Maze,71,221529,0.636,0.759,2018-05-18
+Love Yourself 轉 'Tear',7,Magic Shop,70,275695,0.541,0.285,2018-05-18
+Love Yourself 轉 'Tear',8,Airplane pt.2,67,218614,0.769,0.866,2018-05-18
+Love Yourself 轉 'Tear',9,Anpanman,67,232966,0.813,0.756,2018-05-18
+Love Yourself 轉 'Tear',10,So What,70,281520,0.656,0.46,2018-05-18
+Love Yourself 轉 'Tear',11,Outro: Tear,63,284980,0.711,0.467,2018-05-18
+FACE YOURSELF,1,INTRO : Ringwanderung,50,86053,0.589,0.207,2018-04-04
+FACE YOURSELF,2,Best Of Me - Japanese ver.,49,227920,0.659,0.398,2018-04-04
+FACE YOURSELF,3,血、汗、涙 - Japanese ver.,51,216706,0.61,0.576,2018-04-04
+FACE YOURSELF,4,DNA - Japanese ver.,51,223706,0.574,0.597,2018-04-04
+FACE YOURSELF,5,Not Today - Japanese ver.,48,233880,0.598,0.672,2018-04-04
+FACE YOURSELF,6,MIC Drop - Japanese ver.,49,238226,0.664,0.622,2018-04-04
+FACE YOURSELF,7,Don't Leave Me,68,227413,0.62,0.386,2018-04-04
+FACE YOURSELF,8,Go Go - Japanese ver.,49,237306,0.837,0.847,2018-04-04
+FACE YOURSELF,9,Crystal Snow,65,323360,0.618,0.448,2018-04-04
+FACE YOURSELF,10,Spring Day - Japanese ver.,52,276840,0.572,0.424,2018-04-04
+FACE YOURSELF,11,Let Go,70,299706,0.558,0.388,2018-04-04
+FACE YOURSELF,12,OUTRO : Crack,51,74746,0.729,0.0567,2018-04-04
+LOVE YOURSELF 承 'Her',1,Intro: Serendipity,41,139971,0.477,0.282,2017-09-18
+LOVE YOURSELF 承 'Her',2,DNA,31,223122,0.599,0.696,2017-09-18
+LOVE YOURSELF 承 'Her',3,Best Of Me,26,227191,0.655,0.469,2017-09-18
+LOVE YOURSELF 承 'Her',4,보조개,26,196776,0.612,0.652,2017-09-18
+LOVE YOURSELF 承 'Her',5,Pied Piper,32,245620,0.583,0.778,2017-09-18
+LOVE YOURSELF 承 'Her',6,Skit: Billboard Music Awards Speech,15,107062,0.315,0.327,2017-09-18
+LOVE YOURSELF 承 'Her',7,MIC Drop,24,238193,0.667,0.541,2017-09-18
+LOVE YOURSELF 承 'Her',8,고민보다 Go,26,235779,0.856,0.759,2017-09-18
+LOVE YOURSELF 承 'Her',9,Outro: Her,27,228612,0.48,0.45,2017-09-18
+You Never Walk Alone,1,Intro: Boy Meets Evil,27,121773,0.573,0.242,2017-02-13
+You Never Walk Alone,2,Blood Sweat & Tears,39,217053,0.577,0.573,2017-02-13
+You Never Walk Alone,3,Begin,31,229733,0.578,0.275,2017-02-13
+You Never Walk Alone,4,Lie,31,215760,0.54,0.485,2017-02-13
+You Never Walk Alone,5,Stigma,30,216053,0.521,0.321,2017-02-13
+You Never Walk Alone,6,First Love,27,189800,0.565,0.675,2017-02-13
+You Never Walk Alone,7,Reflection,26,233920,0.517,0.282,2017-02-13
+You Never Walk Alone,8,Mama,29,212266,0.543,0.45,2017-02-13
+You Never Walk Alone,9,Awake,33,226173,0.46,0.332,2017-02-13
+You Never Walk Alone,10,Lost,34,241786,0.541,0.454,2017-02-13
+You Never Walk Alone,11,BTS Cypher 4,27,294453,0.814,0.401,2017-02-13
+You Never Walk Alone,12,Am I Wrong,31,213080,0.759,0.683,2017-02-13
+You Never Walk Alone,13,21st Century Girl,33,192600,0.717,0.783,2017-02-13
+You Never Walk Alone,14,2! 3!,34,272546,0.446,0.611,2017-02-13
+You Never Walk Alone,15,Spring Day,59,274093,0.539,0.461,2017-02-13
+You Never Walk Alone,16,Not Today,56,231853,0.595,0.653,2017-02-13
+You Never Walk Alone,17,Outro: Wings,54,225453,0.656,0.645,2017-02-13
+You Never Walk Alone,18,A Supplementary Story: You Never Walk Alone,43,156053,0.698,0.554,2017-02-13
+WINGS,1,Intro: Boy Meets Evil,36,122080,0.554,0.255,2016-10-10
+WINGS,2,Blood Sweat & Tears,56,217026,0.579,0.588,2016-10-10
+WINGS,3,Begin,47,229720,0.574,0.256,2016-10-10
+WINGS,4,Lie,52,215733,0.547,0.49,2016-10-10
+WINGS,5,Stigma,49,216040,0.444,0.372,2016-10-10
+WINGS,6,First Love,36,189773,0.553,0.71,2016-10-10
+WINGS,7,Reflection,34,233893,0.528,0.317,2016-10-10
+WINGS,8,Mama,38,212253,0.544,0.437,2016-10-10
+WINGS,9,Awake,47,226133,0.311,0.308,2016-10-10
+WINGS,10,Lost,47,241773,0.401,0.396,2016-10-10
+WINGS,11,BTS Cypher 4,48,294440,0.821,0.373,2016-10-10
+WINGS,12,Am I Wrong,40,213040,0.756,0.634,2016-10-10
+WINGS,13,21st Century Girl,51,192600,0.715,0.829,2016-10-10
+WINGS,14,2! 3!,47,272506,0.43,0.61,2016-10-10
+WINGS,15,Interlude: Wings,41,144920,0.64,0.616,2016-10-10
+Youth,1,Introduction : Youth,47,138973,0.563,0.547,2016-09-07
+Youth,2,Run - Japanese Ver.,40,237920,0.531,0.551,2016-09-07
+Youth,3,Fire - Japanese Ver.,45,205373,0.651,0.508,2016-09-07
+Youth,4,Dope - Chou Yabee! - Japanese Ver.,39,241973,0.579,0.545,2016-09-07
+Youth,5,Good Day,56,267506,0.611,0.665,2016-09-07
+Youth,6,Save Me - Japanese Ver.,41,199666,0.623,0.394,2016-09-07
+Youth,7,Funtan Syounendan - Japanese Ver.,39,245880,0.69,0.77,2016-09-07
+Youth,8,Peppuse - Japanese Ver.,39,236293,0.669,0.544,2016-09-07
+Youth,9,Wishing On A Star,58,271760,0.543,0.636,2016-09-07
+Youth,10,Butterfly - Japanese Ver.,41,240680,0.319,0.231,2016-09-07
+Youth,11,For You,59,284586,0.548,0.574,2016-09-07
+Youth,12,I Need U - Japanese Ver.,41,212200,0.497,0.732,2016-09-07
+Youth,13,Epilogue : Young Forever - Japanese Ver.,42,173346,0.461,0.349,2016-09-07
+Young Forever,1,Intro : The Most Beautiful Moment In Life,26,124733,0.545,0.229,2016-05-02
+Young Forever,2,I Need U,42,210693,0.46,0.651,2016-05-02
+Young Forever,3,Hold Me Tight,33,273880,0.627,0.396,2016-05-02
+Young Forever,4,Autumn Leaves,33,267146,0.621,0.313,2016-05-02
+Young Forever,5,Butterfly - Prologue Mix,38,295133,0.397,0.13,2016-05-02
+Young Forever,6,Run,39,236333,0.576,0.508,2016-05-02
+Young Forever,7,Ma City,33,256839,0.677,0.799,2016-05-02
+Young Forever,8,Silver Spoon,35,233173,0.651,0.557,2016-05-02
+Young Forever,9,Dope,42,240026,0.56,0.657,2016-05-02
+Young Forever,10,Fire,57,203346,0.628,0.507,2016-05-02
+Young Forever,11,Save Me,57,196533,0.614,0.518,2016-05-02
+Young Forever,12,Epilogue : Young Forever,46,171786,0.61,0.378,2016-05-02
+Young Forever,1,Converse High,34,210213,0.718,0.798,2016-05-02
+Young Forever,2,Moving On,32,292546,0.67,0.931,2016-05-02
+Young Forever,3,Whalien 52,34,243600,0.578,0.745,2016-05-02
+Young Forever,4,Butterfly,37,240000,0.448,0.274,2016-05-02
+Young Forever,5,House Of Cards - Full Length Edition,41,226266,0.388,0.389,2016-05-02
+Young Forever,6,Love Is Not Over - Full Length Edition,41,221573,0.691,0.275,2016-05-02
+Young Forever,7,I Need U - Urban Mix,31,216480,0.545,0.558,2016-05-02
+Young Forever,8,I Need U - Remix,28,223920,0.547,0.541,2016-05-02
+Young Forever,9,Run - Ballad Mix,32,254813,0.572,0.591,2016-05-02
+Young Forever,10,Run - Alternative Mix,28,236413,0.591,0.547,2016-05-02
+Young Forever,11,Butterfly - Alternative Mix,29,240760,0.346,0.241,2016-05-02
+화양연화 Young Forever,1,Intro: 화양연화,11,124738,0.494,0.23,2016-05-02
+화양연화 Young Forever,2,I Need U,18,210577,0.485,0.649,2016-05-02
+화양연화 Young Forever,3,잡아줘 (Hold Me Tight),13,273992,0.64,0.376,2016-05-02
+화양연화 Young Forever,4,고엽,17,267150,0.625,0.316,2016-05-02
+화양연화 Young Forever,5,Butterfly (Prologue Mix),21,295127,0.373,0.134,2016-05-02
+화양연화 Young Forever,6,Run,15,236334,0.577,0.514,2016-05-02
+화양연화 Young Forever,7,Ma City,11,256838,0.678,0.783,2016-05-02
+화양연화 Young Forever,8,뱁새,14,233184,0.649,0.557,2016-05-02
+화양연화 Young Forever,9,쩔어,15,240020,0.579,0.678,2016-05-02
+화양연화 Young Forever,10,불타오르네 (Fire),32,203351,0.626,0.534,2016-05-02
+화양연화 Young Forever,11,Save Me,31,196505,0.613,0.54,2016-05-02
+화양연화 Young Forever,12,Epilogue: Young Forever,28,171803,0.606,0.386,2016-05-02
+화양연화 Young Forever,1,Converse High,11,210221,0.72,0.804,2016-05-02
+화양연화 Young Forever,2,이사,10,292519,0.68,0.936,2016-05-02
+화양연화 Young Forever,3,Whalien 52,14,243552,0.572,0.771,2016-05-02
+화양연화 Young Forever,4,Butterfly,14,240090,0.439,0.275,2016-05-02
+화양연화 Young Forever,5,House of Cards (Full Length Edition),25,226212,0.367,0.384,2016-05-02
+화양연화 Young Forever,6,Love Is Not Over (Full Length Edition),25,221619,0.462,0.278,2016-05-02
+화양연화 Young Forever,7,I Need U (Urban Mix),17,215189,0.56,0.532,2016-05-02
+화양연화 Young Forever,8,I Need U (Remix),12,223012,0.519,0.49,2016-05-02
+화양연화 Young Forever,9,Run (Ballad Mix),17,257000,0.568,0.595,2016-05-02
+화양연화 Young Forever,10,Run (Alternative Mix),14,236437,0.595,0.586,2016-05-02
+화양연화 Young Forever,11,Butterfly (Alternative Mix),15,241144,0.345,0.209,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,1,Intro: The Most Beautiful Moment in Life,50,124738,0.498,0.229,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,2,I Need U,69,210577,0.475,0.642,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,3,Hold Me Tight,62,273992,0.636,0.379,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,4,Autumn Leaves,61,267150,0.394,0.297,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,5,Butterfly (Prologue Mix),57,295127,0.377,0.135,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,6,Run,67,236334,0.577,0.522,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,7,Ma City,54,256839,0.678,0.783,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,8,Silver Spoon,68,233184,0.649,0.557,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,9,Dope,70,240020,0.579,0.678,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,10,Burning Up (Fire),72,203351,0.627,0.536,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,11,Save Me,71,196505,0.614,0.539,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,12,Epilogue: Young Forever,65,171803,0.606,0.386,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,1,Converse High,57,210221,0.72,0.804,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,2,Moving On,51,292519,0.68,0.935,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,3,Whalien 52,54,243552,0.572,0.77,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,4,Butterfly,57,240090,0.441,0.278,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,5,House of Cards (Full Length Edition),67,226212,0.367,0.386,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,6,Love Is Not Over (Full Length Edition),59,221619,0.462,0.278,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,7,I Need U (Urban Mix),52,215189,0.56,0.534,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,8,I Need U (Remix),46,223012,0.518,0.494,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,9,Run (Ballad Mix),53,257000,0.568,0.595,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,10,Run (Alternative Mix),47,236437,0.594,0.58,2016-05-02
+The Most Beautiful Moment in Life: Young Forever,11,Butterfly (Alternative Mix),48,241144,0.345,0.211,2016-05-02
+"The Most Beautiful Moment In Life, Pt. 2",1,Intro: Never Mind,32,136426,0.349,0.397,2015-11-30
+"The Most Beautiful Moment In Life, Pt. 2",2,Run,55,236746,0.571,0.506,2015-11-30
+"The Most Beautiful Moment In Life, Pt. 2",3,Butterfly,54,238853,0.429,0.283,2015-11-30
+"The Most Beautiful Moment In Life, Pt. 2",4,Whalien 52,43,243226,0.58,0.719,2015-11-30
+"The Most Beautiful Moment In Life, Pt. 2",5,Ma City,42,256693,0.671,0.808,2015-11-30
+"The Most Beautiful Moment In Life, Pt. 2",6,Silver Spoon,52,233160,0.651,0.544,2015-11-30
+"The Most Beautiful Moment In Life, Pt. 2",7,Skit: One Night In A Strange City,26,263120,0.598,0.698,2015-11-30
+"The Most Beautiful Moment In Life, Pt. 2",8,Autumn Leaves,47,267160,0.617,0.314,2015-11-30
+"The Most Beautiful Moment In Life, Pt. 2",9,Outro: House Of Cards,35,177440,0.568,0.31,2015-11-30
+화양연화 Pt.2,1,Intro: Never Mind,22,136428,0.339,0.397,2015-11-30
+화양연화 Pt.2,2,Run,29,236748,0.554,0.55,2015-11-30
+화양연화 Pt.2,3,Butterfly,29,238861,0.461,0.291,2015-11-30
+화양연화 Pt.2,4,Whalien 52,25,243222,0.585,0.735,2015-11-30
+화양연화 Pt.2,5,Ma City,24,256686,0.668,0.807,2015-11-30
+화양연화 Pt.2,6,뱁새,29,233160,0.65,0.536,2015-11-30
+화양연화 Pt.2,7,Skit: One Night in a Strange City,10,263129,0.575,0.667,2015-11-30
+화양연화 Pt.2,8,고엽,27,267150,0.619,0.314,2015-11-30
+화양연화 Pt.2,9,Outro: House of Cards,18,177413,0.37,0.265,2015-11-30
+The Most Beautiful Moment in Life Pt.2,1,Intro: Never Mind,54,136428,0.349,0.397,2015-11-30
+The Most Beautiful Moment in Life Pt.2,2,Run,59,236748,0.554,0.55,2015-11-30
+The Most Beautiful Moment in Life Pt.2,3,Butterfly,69,238861,0.448,0.294,2015-11-30
+The Most Beautiful Moment in Life Pt.2,4,Whalien 52,59,243222,0.585,0.735,2015-11-30
+The Most Beautiful Moment in Life Pt.2,5,Ma City,57,256686,0.669,0.807,2015-11-30
+The Most Beautiful Moment in Life Pt.2,6,Silver Spoon,60,233160,0.65,0.536,2015-11-30
+The Most Beautiful Moment in Life Pt.2,7,Skit: One Night in a Strange City,41,263129,0.574,0.667,2015-11-30
+The Most Beautiful Moment in Life Pt.2,8,Autumn Leaves,57,267150,0.619,0.307,2015-11-30
+The Most Beautiful Moment in Life Pt.2,9,Outro: House of Cards,56,177413,0.369,0.264,2015-11-30
+"The Most Beautiful Moment In Life, Pt.1",1,Intro: The Most Beautiful Moment In Life,32,124413,0.367,0.262,2015-09-16
+"The Most Beautiful Moment In Life, Pt.1",2,I Need U,57,211653,0.474,0.713,2015-09-16
+"The Most Beautiful Moment In Life, Pt.1",3,Hold Me Tight,48,274613,0.63,0.353,2015-09-16
+"The Most Beautiful Moment In Life, Pt.1",4,Skit: Expectation!,26,147360,0.663,0.677,2015-09-16
+"The Most Beautiful Moment In Life, Pt.1",5,Dope,57,240386,0.629,0.623,2015-09-16
+"The Most Beautiful Moment In Life, Pt.1",6,Boyz With Fun,52,245413,0.699,0.779,2015-09-16
+"The Most Beautiful Moment In Life, Pt.1",7,Converse High,42,211053,0.724,0.797,2015-09-16
+"The Most Beautiful Moment In Life, Pt.1",8,Moving On,40,294360,0.679,0.923,2015-09-16
+"The Most Beautiful Moment In Life, Pt.1",9,Outro: Love Is Not Over,37,143560,0.717,0.206,2015-09-16
+화양연화 Pt.1,1,Intro: 화양연화,19,123033,0.36,0.257,2015-04-29
+화양연화 Pt.1,2,I Need U,30,210986,0.478,0.707,2015-04-29
+화양연화 Pt.1,3,잡아줘 (Hold Me Tight),27,274991,0.622,0.394,2015-04-29
+화양연화 Pt.1,4,Skit: Expectation!,10,147693,0.635,0.712,2015-04-29
+화양연화 Pt.1,5,쩔어,30,240020,0.595,0.62,2015-04-29
+화양연화 Pt.1,6,흥탄소년단,28,244156,0.704,0.751,2015-04-29
+화양연화 Pt.1,7,Converse High,22,209715,0.724,0.817,2015-04-29
+화양연화 Pt.1,8,이사,22,292569,0.684,0.929,2015-04-29
+화양연화 Pt.1,9,Outro: Love Is Not Over,20,143862,0.719,0.218,2015-04-29
+The Most Beautiful Moment in Life Pt.1,1,Intro: The Most Beautiful Moment in Life,49,123033,0.36,0.257,2015-04-29
+The Most Beautiful Moment in Life Pt.1,2,I Need U,61,210986,0.486,0.71,2015-04-29
+The Most Beautiful Moment in Life Pt.1,3,Hold Me Tight,57,274991,0.631,0.395,2015-04-29
+The Most Beautiful Moment in Life Pt.1,4,Skit: Expectation!,42,147693,0.653,0.712,2015-04-29
+The Most Beautiful Moment in Life Pt.1,5,Dope,60,240020,0.619,0.622,2015-04-29
+The Most Beautiful Moment in Life Pt.1,6,Boyz with Fun,65,244156,0.704,0.751,2015-04-29
+The Most Beautiful Moment in Life Pt.1,7,Converse High,58,209715,0.724,0.815,2015-04-29
+The Most Beautiful Moment in Life Pt.1,8,Moving On,56,292569,0.684,0.929,2015-04-29
+The Most Beautiful Moment in Life Pt.1,9,Outro: Love Is Not Over,55,143862,0.719,0.219,2015-04-29
+Dark & Wild,1,Intro: What Am I to You,30,165440,0.321,0.519,2015-03-18
+Dark & Wild,2,Danger,52,245106,0.739,0.388,2015-03-18
+Dark & Wild,3,War of Hormone,47,265573,0.614,0.48,2015-03-18
+Dark & Wild,4,Hip Hop Phile,33,257279,0.792,0.803,2015-03-18
+Dark & Wild,5,Let Me Know,39,256213,0.612,0.165,2015-03-18
+Dark & Wild,6,Rain,37,265346,0.711,0.327,2015-03-18
+Dark & Wild,7,"BTS Cypher, Pt. 3: Killer",34,269013,0.794,0.684,2015-03-18
+Dark & Wild,8,Interlude: What Are You Doing Now,29,41733,0.786,0.516,2015-03-18
+Dark & Wild,9,Could You Turn off Your Cell Phone,33,234053,0.497,0.897,2015-03-18
+Dark & Wild,10,Embarrassed,39,241733,0.603,0.558,2015-03-18
+Dark & Wild,11,24/7=Heaven,38,226400,0.644,0.563,2015-03-18
+Dark & Wild,12,Look Here,42,218866,0.856,0.767,2015-03-18
+Dark & Wild,13,So 4 more,37,237306,0.671,0.797,2015-03-18
+Dark & Wild,14,Outro: Do You Think It Makes Sense?,35,173413,0.65,0.56,2015-03-18
+Skool Luv Affair,1,Intro: Skool Luv Affair,32,176826,0.603,0.656,2015-03-18
+Skool Luv Affair,2,Boy In Luv,55,230400,0.467,0.469,2015-03-18
+Skool Luv Affair,3,Skit: Soulmate,26,92413,0.647,0.743,2015-03-18
+Skool Luv Affair,4,Where You From,34,240266,0.664,0.918,2015-03-18
+Skool Luv Affair,5,Just One Day,53,239826,0.505,0.326,2015-03-18
+Skool Luv Affair,6,Tomorrow,42,261853,0.328,0.651,2015-03-18
+Skool Luv Affair,7,"BTS Cypher, Pt. 2: Triptych",33,288426,0.584,0.853,2015-03-18
+Skool Luv Affair,8,Spine Breaker,41,238573,0.68,0.863,2015-03-18
+Skool Luv Affair,9,Jump,45,237680,0.499,0.714,2015-03-18
+Skool Luv Affair,10,Outro: Propose,37,122560,0.58,0.504,2015-03-18
+Wake Up (Standard Edition),1,Intro.,44,75080,0.807,0.786,2014-12-24
+Wake Up (Standard Edition),2,The Stars,50,255320,0.602,0.574,2014-12-24
+Wake Up (Standard Edition),3,Jump - Japanese Ver.,40,237200,0.489,0.698,2014-12-24
+Wake Up (Standard Edition),4,Danger - Japanese Ver.,39,247626,0.726,0.408,2014-12-24
+Wake Up (Standard Edition),5,Boy In Luv - Japanese Ver.,39,232506,0.527,0.542,2014-12-24
+Wake Up (Standard Edition),6,Just One Day - Japanese Ver.,42,333546,0.526,0.368,2014-12-24
+Wake Up (Standard Edition),7,Iine!,48,232466,0.766,0.769,2014-12-24
+Wake Up (Standard Edition),8,Iine!Pt.2 - Ano Bashode -,57,235466,0.684,0.861,2014-12-24
+Wake Up (Standard Edition),9,No More Dream - Japanese Ver.,39,222040,0.663,0.639,2014-12-24
+Wake Up (Standard Edition),10,Shingeki no Boudan - Japanese Ver.,38,247946,0.636,0.566,2014-12-24
+Wake Up (Standard Edition),11,N.O - Japanese Ver.,38,211720,0.602,0.588,2014-12-24
+Wake Up (Standard Edition),12,Wake Up,50,352133,0.709,0.734,2014-12-24
+Wake Up (Standard Edition),13,Outro.,44,96493,0.679,0.786,2014-12-24
+WAKE UP 通常盤,1,INTRO.,27,75080,0.807,0.786,2014-12-24
+WAKE UP 通常盤,2,THE STARS,33,255320,0.602,0.574,2014-12-24
+WAKE UP 通常盤,3,JUMP -Japanese Ver.-,36,237200,0.489,0.698,2014-12-24
+WAKE UP 通常盤,4,Danger -Japanese Ver.-,33,247626,0.726,0.408,2014-12-24
+WAKE UP 通常盤,5,BOY IN LUV -Japanese Ver.-,36,232506,0.527,0.542,2014-12-24
+WAKE UP 通常盤,6,JUST ONE DAY -Japanese Ver. Extended-,34,333546,0.526,0.368,2014-12-24
+WAKE UP 通常盤,7,いいね!,38,232466,0.766,0.769,2014-12-24
+WAKE UP 通常盤,8,いいね!Pt.2 ~あの場所で~,40,235466,0.684,0.861,2014-12-24
+WAKE UP 通常盤,9,NO MORE DREAM -Japanese Ver.-,30,222040,0.663,0.639,2014-12-24
+WAKE UP 通常盤,10,進撃の防弾 -Japanese Ver.-,32,247946,0.636,0.566,2014-12-24
+WAKE UP 通常盤,11,N.O -Japanese Ver.-,30,211720,0.602,0.588,2014-12-24
+WAKE UP 通常盤,12,WAKE UP,33,352133,0.709,0.734,2014-12-24
+WAKE UP 通常盤,13,OUTRO.,27,96493,0.679,0.786,2014-12-24
+DARK&WILD,1,Intro: What Am I to You,21,165121,0.475,0.568,2014-08-20
+DARK&WILD,2,Danger,27,245140,0.738,0.377,2014-08-20
+DARK&WILD,3,호르몬 전쟁,23,265602,0.612,0.488,2014-08-20
+DARK&WILD,4,힙합성애자,21,257299,0.796,0.795,2014-08-20
+DARK&WILD,5,Let Me Know,23,254973,0.61,0.156,2014-08-20
+DARK&WILD,6,Rain,23,264666,0.703,0.315,2014-08-20
+DARK&WILD,7,BTS Cypher Pt.3: Killer,24,267782,0.793,0.665,2014-08-20
+DARK&WILD,8,Interlude: 뭐해,15,41757,0.783,0.55,2014-08-20
+DARK&WILD,9,핸드폰 좀 꺼줄래,18,234062,0.459,0.917,2014-08-20
+DARK&WILD,10,이불킥,20,241761,0.556,0.551,2014-08-20
+DARK&WILD,11,24/7=Heaven,22,226425,0.642,0.573,2014-08-20
+DARK&WILD,12,여기 봐,25,218887,0.863,0.784,2014-08-20
+DARK&WILD,13,2학년,22,235020,0.676,0.798,2014-08-20
+DARK&WILD,14,Outro: 그게 말이 돼?,17,172658,0.634,0.553,2014-08-20
+Skool Luv Affair (Special Edition),1,Miss Right,59,241374,0.721,0.855,2014-05-14
+Skool Luv Affair (Special Edition),2,Like (Slow Jam Remix),53,232691,0.527,0.657,2014-05-14
+Skool Luv Affair (Special Edition),3,Intro: Skool Luv Affair,45,178282,0.587,0.671,2014-05-14
+Skool Luv Affair (Special Edition),4,Boy in Luv,65,230778,0.491,0.473,2014-05-14
+Skool Luv Affair (Special Edition),5,Skit: Soulmate,41,92791,0.633,0.749,2014-05-14
+Skool Luv Affair (Special Edition),6,Where You From,46,240106,0.658,0.918,2014-05-14
+Skool Luv Affair (Special Edition),7,Just One Day,55,239469,0.504,0.307,2014-05-14
+Skool Luv Affair (Special Edition),8,Tomorrow,51,261574,0.311,0.627,2014-05-14
+Skool Luv Affair (Special Edition),9,BTS Cypher Pt.2: Triptych,47,288771,0.585,0.837,2014-05-14
+Skool Luv Affair (Special Edition),10,Spine Breaker,52,238529,0.68,0.862,2014-05-14
+Skool Luv Affair (Special Edition),11,Jump,52,236488,0.495,0.763,2014-05-14
+Skool Luv Affair (Special Edition),12,Outro: Propose,47,122513,0.398,0.514,2014-05-14
+"O!RUL8,2?",1,"Intro: O!RUL8,2?",31,70453,0.468,0.183,2013-09-11
+"O!RUL8,2?",2,N.O,42,209733,0.601,0.516,2013-09-11
+"O!RUL8,2?",3,We On,34,231493,0.801,0.833,2013-09-11
+"O!RUL8,2?",4,Skit: R U Happy Now?,26,148546,0.533,0.655,2013-09-11
+"O!RUL8,2?",5,If I Ruled the World,33,248586,0.745,0.689,2013-09-11
+"O!RUL8,2?",6,Coffee,44,261453,0.652,0.545,2013-09-11
+"O!RUL8,2?",7,"BTS Cypher, Pt. 1",31,131520,0.78,0.842,2013-09-11
+"O!RUL8,2?",8,Attack on Bangtan,42,247160,0.722,0.678,2013-09-11
+"O!RUL8,2?",9,Paldo Gangsan,35,205400,0.558,0.851,2013-09-11
+"O!RUL8,2?",10,Outro: Luv In Skool,36,87053,0.704,0.425,2013-09-11
+2 COOL 4 SKOOL,1,Intro : 2 COOL 4 SKOOL,31,64133,0.899,0.581,2013-06-12
+2 COOL 4 SKOOL,2,"We Are Bulletproof, Pt. 2",50,223906,0.755,0.883,2013-06-12
+2 COOL 4 SKOOL,3,Skit : Circle Room Talk,26,131906,0.56,0.766,2013-06-12
+2 COOL 4 SKOOL,4,No More Dream,51,222053,0.435,0.641,2013-06-12
+2 COOL 4 SKOOL,5,Interlude,28,52453,0,0,2013-06-12
+2 COOL 4 SKOOL,6,Like,53,231893,0.738,0.764,2013-06-12
+2 COOL 4 SKOOL,7,Outro : Circle room cypher,28,323986,0.734,0.869,2013-06-12
+My Universe,1,My Universe - Acoustic Version,70,223268,0.501,0.449,2021-09-27
+My Universe,2,My Universe - Supernova 7 Mix,66,279317,0.665,0.489,2021-09-27
+My Universe,3,My Universe,68,228000,0.588,0.443,2021-09-27
+Butter (feat. Megan Thee Stallion),1,Butter (feat. Megan Thee Stallion),87,164457,0.739,0.774,2021-08-27
+Permission to Dance,1,Permission to Dance,81,187585,0.702,0.646,2021-07-23
+Permission to Dance,2,Permission to Dance (R&B Remix),72,216156,0.662,0.351,2021-07-23
+Permission to Dance,3,Permission to Dance (Instrumental),52,187585,0.75,0.406,2021-07-23

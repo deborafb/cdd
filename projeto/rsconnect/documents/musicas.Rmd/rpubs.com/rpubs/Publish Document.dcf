@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/820824/0c1d37f540364ff1bca8a13ad0870390
+bundleId: https://api.rpubs.com/api/v1/document/820824/0c1d37f540364ff1bca8a13ad0870390
+url: http://rpubs.com/deborafb/820824
+when: 1634001463.54075
+lastSyncTime: 1634001463.54075

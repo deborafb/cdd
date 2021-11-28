@@ -1,0 +1,360 @@
+---
+title: "Análise dos álbuns do grupo BTS no Spotify"
+author: "Débora Ferreira"
+output: 
+    html_document:
+        code_folding: hide
+    df_print: paged
+theme: sandstone
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(openintro)
+library(here)
+library(tidyverse)
+library(tidymodels)
+library(pscl)
+library(modelr) 
+library(ggplot2)
+library(scales)
+library(plotly)
+
+
+theme_set(theme_bw())
+
+knitr::opts_chunk$set(tidy = FALSE,
+                      fig.width = 6,
+                      fig.height = 5
+                      )
+```
+
+BTS é um grupo sul-coreano formado pela BigHit Entertainment, desde seu debut em 2013 foram lançados diversos álbuns que compõem sua carreira, incluindo álbuns com versões em japonês e alguns singles em inglês lançados recentemente. Para a análise de músicas e álbuns do grupo, foram coletados os seus dados disponíveis no Spotify referentes aos lançamentos dos anos de 2013-2021, utilizando-se informações sobre o nome dos álbuns, o título das músicas, suas posições, suas datas de lançamento, a popularidade das músicas, a duração de cada uma, o quanto são dançaveis e a valência. Para mais informações sobre os dados e sua coleta acesse https://spotipy.readthedocs.io/en/2.12.0/, https://developer.spotify.com/documentation/web-api/.
+
+
+*Informações sobre os dados utilizados:*
+
+
+```{r read}
+
+album1 = read_csv("musicas2.csv",
+    col_types = cols(
+        .default = col_double(),
+        album = col_character(),
+        track_number = col_integer(),
+        name = col_character(),
+        popularity = col_integer(),
+        duration_ms = col_integer(),
+        danceability = col_double(),
+        valence = col_double(),
+        release_date = col_date(format = "")
+    )
+)
+
+
+glimpse(album1)
+
+```
+
+**Album** - Nome do albúm
+
+**Track Number** - Posição da música no albúm
+
+**Name** - Nome da música
+
+**Popularity** - Popularidade da música entre 0 e 100 baseando-se no número total de reproduções que a faixa teve e quão recentes foram estas reproduções
+
+**Duration MS** - Duração da música em mílisegundos
+
+**Danceability** - Descreve com valores de 0 a 1 o quanto a música é dançavel baseado em estabilidade de ritmo, batida e regularidade
+
+**Valence** - Descreve com valores 0 a 1 o humor da música, com alta valência significando humor mais alegre e baixa valência humor mais triste
+
+**Release Date** - Data de lançamento da música
+
+
+## Explorando um pouco os dados dos álbuns:
+
+**Distribuição da média da popularidade dos álbuns: **
+
+```{r}
+
+pop_album = album1 %>%
+    group_by(album) %>%
+    summarise(popularity = mean(popularity),
+              .groups = "drop")
+  
+pop_album$album <- factor(as.character(pop_album$album), levels = pop_album$album[order(pop_album$popularity)])
+
+ggplot(pop_album, aes(y = album, x = popularity))+  
+geom_bar(stat = "identity", width = 0.25, color = "steelblue")+
+labs(
+    x = "Popularidade",
+    y = "Álbum"
+)
+
+```
+
+**Distribuição da duração dos álbuns: **
+
+```{r}
+
+duration = album1 %>%
+    group_by(album) %>%
+    summarise(duration_ms = sum(duration_ms),
+              .groups = "drop")
+  
+duration$album <- factor(as.character(duration$album), levels = duration$album[order(duration$duration_ms)])
+
+ggplot(duration, aes(y = album, x = sqrt(duration_ms)))+  
+geom_bar(stat = "identity", width = 0.25, color = "steelblue")+
+labs(
+    x = "Duração(sqrt(ms))",
+    y = "Álbum"
+)
+
+```
+
+**Distribuição da data de lançamento dos álbuns: **
+
+```{r}
+
+release = album1 %>%
+    group_by(album) 
+  
+release$album <- factor(as.character(release$album), levels = unique(release$album[order(release$release_date)]))
+
+ggplot(release, aes(y = album, x = release_date))+  
+geom_point(size = 2, color = "steelblue")+
+labs(
+    x = "Data de lançamento",
+    y = "Álbum"
+)
+
+```
+
+### Para esta análise deseja-se responder algumas perguntas:
+
+- Qual a música mais popular de cada albúm? E a mais popular no geral?
+
+- A popularidade das músicas tem relação com sua posição no álbum?
+
+- A data de lançamento dos álbuns tem relação com sua popularidade?
+
+- Qual a relação entre a dançabilidade de uma música e seu humor?
+
+- Qual a relação entre a dançabilidade, duração e humor de uma música com sua popularidade?
+
+
+## Qual a música mais popular de cada albúm? E a mais popular no geral?
+
+```{r}
+
+sumario_popularidade = album1 %>%
+    group_by(album, name) %>%
+    summarise(pop = max(popularity),
+            .groups = "drop")
+
+
+```
+
+```{r}
+
+popularidade = sumario_popularidade %>% 
+      ggplot(aes(x = popularity, y = album, label = name, color = album)) + 
+      geom_point(data = sumario_popularidade, aes(x = pop)) +
+      theme(legend.position="none") +
+      labs(
+          x = "Popularidade",
+          y = "Álbum"
+      )
+
+ggplotly(popularidade)
+
+
+```
+**Com a análise da popularidade das músicas dos álbuns, descobriu-se que a música mais popular do Youth é a "For You" com 59 pontos, do You Never Walk Alone é Spring Day com 59 pontos, do WINGS é Blood Sweat & Tears com 56 pontos, do Wake Up(Standard Edition) é I Like It PT.2(Ano Bashode) com 57 pontos, do The Most Beautiful Moment in Life é Burning Up(Fire) com 72 pontos, do The Most Beautiful Moment in Life Pt.2 é Butterfly com 69 pontos, do The Most Beautiful Moment in Life Pt.1 é Boyz With Fun com 65 pontos, do Skool Luv Affair(Special Edition) com 55 pontos e Skool Luv Affair com 55 pontos é Boy in Luv, do Permission to Dance é Permission to Dance com 81 pontos, do O!RUL8,2? é Coffe com 44 pontos, do My Universe é My Universe - Acoustic Version com 70 pontos, do MAP OF THE SOUL: PPERSONA é Boy With Luv(feat. Halsey) com 43 pontos, do MAP OF THE SOUL: 7 ~ THE JOURNEY ~ é Your Eyes Tell com 73 pontos, do MAP OF THE SOUL 7 é ON com 61 pontos, do Love Yourself: Tear é Fake Love com 73 pontos, do Love Yourself: Her é Serendipity com 41 pontos, do FACE YOURSELF é Let Go com 70 pontos, do Dark&Wild é Danger com 52 pontos, do single Butter(feat. Megan Thee Stallion) é ele próprio com 87 pontos, do BE é Dynamite com 87 pontos e por fim o 2 COOL 4 SKOOL é Like com 53 pontos.**
+
+**No geral as músicas mais populares entre todas são Butter(feat. Megan Thee Stallion) e Dynamite, ambas com 87 pontos de popularidade.**
+
+
+## A popularidade das músicas tem relação com sua posição no álbum?
+
+
+```{r}
+
+# Como só existe um single em "Butter (feat. Megan Thee Stallion)", ele não será levado em consideração 	
+
+relacao = album1 %>% 
+    filter(album != "Butter (feat. Megan Thee Stallion)") %>% 
+    select(popularity, track_number, album)
+
+```
+
+
+```{r}
+
+relacao %>% 
+    ggplot(aes(y = popularity, x = track_number)) + 
+    facet_wrap(~ album, ncol = 3) +
+    theme_bw() +
+    theme(strip.text = element_text(size = rel(0.52))) +
+    geom_point(alpha = 5, size = 1, colour="salmon") +
+    labs(
+        y = "Popularidade",
+        x = "Posição da faixa"
+    )
+
+```
+
+```{r}
+
+relacao = album1 %>% 
+    filter(album != "Butter (feat. Megan Thee Stallion)") %>% 
+    select(popularity, track_number, album)
+
+
+relacao %>% 
+    group_by(album) %>% 
+    summarise(pearson = cor(track_number, popularity,
+                                 method = "pearson"),
+              spearman = cor(track_number, popularity, method = "spearman"),
+               kendall = cor(track_number, popularity, method = "kendall"),
+              
+              .groups = "drop")
+
+```
+**Para esta pergunta foi avaliada a correlação entre a variável popularidade e posição da faixa no álbum, observando-se então que o formato da correlação dos dados no gráfico não é exatamente linear, apenas em Permission to Dance que este padrão pode ser observado mais claramente, não sendo possível detectar se existe alguma correlação entre a popularidade de uma faixa e sua posição no álbum.**
+
+**Com a análise dos coeficiente de correlação, é possível observar que existe uma correlação entre a popularidade e a posição das faixas, porém esta variando entre negativa e positiva e relativamente fraca, com algumas excessões. Alguns álbuns apresentam uma correlação mais forte, como no caso de MAP OF THE SOUL: 7 e You Never Walk Alone que a popularidade aumenta na medida que o número da faixa cresce, e no caso de LOVE YOURSELF: HER e Permission to Dance que a popularidade diminui na medida que o número da faixa cresce.** 
+
+## A data de lançamento dos álbuns tem relação com sua popularidade?
+
+
+```{r warning = FALSE}
+
+relacao1 = album1 %>% 
+    select(popularity, release_date, album) %>%
+    group_by(album) %>%
+    mutate(popularity = trunc(mean(popularity))) %>%
+    ungroup() 
+        
+rd = relacao1 %>% 
+        ggplot(aes(y = popularity, x = release_date, color = album)) + 
+        geom_point(data = relacao1, aes(x = release_date)) +
+        theme(legend.position="none") +
+        geom_point(size = 3) +
+        labs(
+           y = "Popularidade",
+            x = "Data de lançamento"
+        )
+
+ggplotly(rd)
+
+```
+
+```{r}
+
+rel = relacao1 %>%
+  select(popularity, release_date)
+
+model <- lm(popularity ~ release_date, 
+           data = rel)
+
+tidy(model, conf.int = T)
+glance(model)
+```
+
+**Analisando a relação entre a data de lançamento de um álbum e sua popularidade, e utilizando um modelo no formato popularity = -68.4 + 0.006 x release_date a explicação da variância de resposta foi de 21,78% (R^2 = 0.2178). O crescimento na data de lançamento de um álbum produz um aumento de 0.006 (IC 95% [0.005; 0.008]) no valor esperado da taxa de resposta. O efeito parece ser pouco relevante visto que o valor de acréscimo é baixo, logo, a data de lançamento de um álbum tem alguma relação com sua popularidade, porém sendo esta pequena.** 
+
+
+## Qual a relação entre a dançabilidade de uma música e seu humor?
+
+```{r}
+
+danc = album1 %>%
+  filter(valence != 0 & danceability != 0) %>%
+  select(valence, danceability)
+
+danc %>% 
+    ggplot(aes(x = valence, y = log(danceability))) + 
+    geom_point(color = "purple", size = 2, alpha = .8) +
+    labs (
+      x = "Humor(valência)",
+      y = "Dançabilidade"
+    )
+
+
+```
+
+```{r}
+
+# dançabilidade = b0 + b1*valencia
+
+
+model1 = lm(danceability ~ valence, 
+           data = danc)
+
+
+tidy(model1, conf.int = T)
+glance(model1)
+
+```
+
+**A Regressão linear simples foi utilizada para analisar a relação entre a dançabilidade de uma música e seu humor. Um modelo no formato danceability = 0.47 + 0.22 x valence explica 15.86% da variância da variável de resposta (R^2 = 0.1586). O aumento de 1% no humor de uma música produz um aumento de 0.22 (IC 95% [0.16; 0.29]) no valor esperado da taxa de resposta. O efeito observado é relevante, visto que o valor de acréscimo é relativamente alto. Logo, é provável que o humor de uma música afete e tenha uma relação com sua dançabilidade.**
+
+
+## Qual a relação entre a dançabilidade, duração e humor de uma música com sua popularidade?
+
+```{r}
+
+album1 %>% 
+    ggplot(mapping = aes(x = popularity, y = danceability))+  
+    geom_col(fill = "steelblue", alpha = 0.75)+
+    labs(
+        x = "Popularidade",
+        y = "Dançabilidade"
+    )
+
+```
+
+```{r}
+
+album1 %>% 
+    ggplot(mapping = aes(x = popularity, y = valence))+  
+    geom_col(fill = "steelblue", alpha = 0.75)+
+    labs(
+        x = "Popularidade",
+        y = "Humor"
+    )
+
+```
+
+
+```{r}
+
+album1 %>% 
+    ggplot(mapping = aes(x = popularity, y = log(duration_ms)))+  
+    geom_col(fill = "steelblue", alpha = 0.75)+
+    labs(
+        x = "Popularidade",
+        y = "log(Duração)"
+    )
+
+```
+```{r}
+
+m1 = lm(popularity ~ valence + log(duration_ms) + danceability, 
+          data = album1
+        )
+
+tidy(m1, conf.int = T) 
+glance(m1)
+
+```
+
+**Utilizando Regressão linear múltipla, um modelo no formato popularity = -92.6 -10.39xvalence + 11.35xlog(duration_ms) + 13.34xdanceability explica 7.96% da variância da variável de resposta (R^2 = 0.0796). O aumento de 1% das variáveis de explicação produz um decremento de 10.39 no valor da valência (IC 95% [-19.7; -1.08]) mais um aumento de 11.35 no valor do log da duração (IC 95% [5.9; 16.8]), mais um aumento de 13.34 na dançabilidade (IC 95% [-2.03; 28.71]), no valor esperado da popularidade.**
+
+**A dançabilidade, a valência e o humor de uma música podem ter algum efeito sobre a popularidade desta, porém como seus valores de confiança variam muito e os de dançabilidade assumem valores negativos e positivos, os efeitos dessas variáveis podem ser inconclusivos ou terem efeitos de baixo à médio com alguma relevância.**
+
+
+
